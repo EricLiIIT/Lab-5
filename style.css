@@ -53,7 +53,7 @@ th{
 .text{
 	color: White;
   font-size: 30px;
-  position: relative;
+  position: absolute;
 	text-align: center;
 }
 
