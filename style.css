@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ECFBFF;
+	width: 100%;
+}
+
+h2{
+	font-size: 30px;
+}
+
+table{
+	border: 0.5px solid black;
+	padding: 2px;
+	width: 100%;
+}
+
+td{
+	padding: 30px;
+}
+
+th{
+	padding: 20px;
+}
+
+#Mercury{
+	
+}
+
+#Venus{
+	
+}
+
+#Saturn{
+	
+}
+
+#Uranus{
+	
+}
