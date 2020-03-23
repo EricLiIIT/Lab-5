@@ -17,7 +17,8 @@ h2{
 }
 
 #table2{
-	width: 100%;
+	margin: auto;
+	width: 50%;
 }
 
 td{
@@ -28,18 +29,36 @@ th{
 	padding: 20px;
 }
 
-#Mercury{
-	
+.overlay{
+	position: absolute;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
 }
 
-#Venus{
-	
+.planet{
+	position: relative;
+	width: 100%;
 }
 
-#Saturn{
-	
+.planet:hover .overlay{
+	opacity: 1;
 }
 
-#Uranus{
-	
+.text{
+	color: White;
+  font-size: 30px;
+  position: relative;
+	text-align: center;
+}
+
+.image{
+	display: block;
+	height: 200px;
+	width: 200px;
 }
